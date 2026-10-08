@@ -1,113 +1,289 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Esther Owusua Appiah-Fei | Portfolio</title>
+  <meta name="description" content="GTM strategist and sports journalist. Esther Owusua Appiah-Fei pairs a reporter's instinct for story with a seller's focus on pipeline and revenue.">
+  <meta property="og:title" content="Esther Owusua Appiah-Fei | Portfolio">
+  <meta property="og:description" content="GTM strategist and sports journalist bridging storytelling, sales, and revenue growth.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg: #fbfaf7;
+      --text: #16151a;
+      --muted: #5d5b63;
+      --line: #e4e1da;
+      --accent: #b4441f;
+      --card: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131216;
+        --text: #f1efe9;
+        --muted: #a5a2ab;
+        --line: #2c2a31;
+        --accent: #ee8a63;
+        --card: #1b1a1f;
+      }
+    }
+    * { box-sizing: border-box; }
     body {
-      font-family: Arial, sans-serif;
-      margin: 60px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-      max-width: 800px;
-      color: #111;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Inter", system-ui, -apple-system, sans-serif;
+      font-size: 17px;
+      line-height: 1.65;
     }
-    h1 {
-      font-size: 36px;
-      margin-bottom: 6px;
+    .wrap {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 72px 20px 96px;
     }
+    h1, h2, h3 { font-family: "Fraunces", Georgia, serif; font-weight: 600; line-height: 1.2; }
+    h1 { font-size: clamp(34px, 6vw, 48px); margin: 0 0 12px; letter-spacing: -0.01em; }
     h2 {
-      margin-top: 40px;
+      font-size: 26px;
+      margin: 64px 0 20px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
     }
+    h3 { font-size: 19px; margin: 0 0 4px; }
+    p { margin: 0 0 16px; }
     a {
+      color: inherit;
       text-decoration: none;
-      color: black;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid var(--accent);
     }
-    a:hover {
-      opacity: 0.7;
-    }
-    li {
+    a:hover { color: var(--accent); }
+    .eyebrow {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
       margin-bottom: 14px;
     }
+    .lede { font-size: 20px; color: var(--muted); max-width: 640px; }
+    .links { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 24px; font-weight: 500; }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 14px;
+      margin-top: 40px;
+    }
+    .stat {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 18px;
+    }
+    .stat strong { display: block; font-family: "Fraunces", Georgia, serif; font-size: 28px; color: var(--accent); }
+    .stat span { font-size: 14px; color: var(--muted); line-height: 1.45; display: block; }
+
+    .item { margin-bottom: 30px; }
+    .meta { font-size: 14px; color: var(--muted); margin-bottom: 8px; }
+    .item ul { margin: 6px 0 0; padding-left: 20px; }
+    .item li { margin-bottom: 6px; }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
+    .tags li {
+      font-size: 14px;
+      border: 1px solid var(--line);
+      background: var(--card);
+      border-radius: 999px;
+      padding: 4px 12px;
+    }
+    footer { margin-top: 64px; font-size: 14px; color: var(--muted); }
   </style>
 </head>
 <body>
+<main class="wrap">
 
-<h1>Esther Owusua Appiah-Fei</h1>
-<p>GTM-focused strategist operating at the intersection of tech sales, communications, and revenue growth.</p>
+  <header>
+    <div class="eyebrow">GTM Strategy · Sales · Sports Media</div>
+    <h1>Esther Owusua Appiah-Fei</h1>
+    <p class="lede">
+      I turn stories into pipeline. A go-to-market strategist with roots in sports journalism,
+      I combine a reporter's instinct for what makes people lean in with a seller's focus on
+      qualified conversations, conversion, and revenue.
+    </p>
+    <div class="links">
+      <a href="mailto:esthera759@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/esther-appiah-fei/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://muckrack.com/esther-owusua-appiah-fei" target="_blank" rel="noopener">Muck Rack</a>
+    </div>
 
-<h2>About</h2>
-<p>
-Brief paragraph about who you are, what you do, and what you care about.
-</p>
+    <div class="stats">
+      <div class="stat"><strong>80%</strong><span>conversion on 20 qualified organizations sourced through outbound at MoveMeBack</span></div>
+      <div class="stat"><strong>80%</strong><span>listenership growth for the State Department funded Limitless Africa podcast</span></div>
+      <div class="stat"><strong>1 of 6</strong><span>journalists selected for the FISU and AIPS Young Reporter Programme, Torino 2025</span></div>
+      <div class="stat"><strong>5+ yrs</strong><span>reporting for BBC Sport, The Guardian, Al Jazeera, DW and more</span></div>
+    </div>
+  </header>
 
-<h2>Projects</h2>
-<ul>
-  <li>
-    <strong>
-      <a href="https://subjct.ai" target="_blank">Subjct AI</a>
-    </strong>:
-    Supported communications and SEO strategy for a UK-based AI startup, structuring content for AI retrievability and strengthening brand authority in search-driven environments.
-  </li>
+  <section>
+    <h2>About</h2>
+    <p>
+      My career started in the newsroom and the press box. Over five years of reporting across Africa,
+      Europe, and the United States, I learned how to find the angle that matters to a specific audience,
+      earn trust quickly, and make complex ideas land. Those are the same skills that move a buyer from
+      first touch to signed contract.
+    </p>
+    <p>
+      Today I put that foundation to work in go-to-market roles. I build outbound workflows, sharpen
+      positioning, and align messaging, demand generation, and sales enablement so that marketing and
+      sales tell one story. I have worked across SaaS, AI, media, and global development, and I am at my
+      best where narrative and numbers meet: translating positioning into measurable traction.
+    </p>
+  </section>
 
-  <li>
-    <strong>
-      <a href="https://movemeback.com" target="_blank">MoveMeBack</a>
-    </strong>:
-    Expanded global sales pipeline by adding 20 qualified organizations with an 80% conversion rate through outbound prospecting and positioning refinement.
-  </li>
+  <section>
+    <h2>GTM and Sales</h2>
 
-  <li>
-    <strong>
-      <a href="https://trueafrica.co/article/podcast/" target="_blank">True Africa – Limitless Africa Podcast</a>
-    </strong>:
-    Led digital growth strategy for a multi-language podcast, aligning editorial storytelling with measurable audience acquisition and engagement metrics.
-  </li>
+    <div class="item">
+      <h3><a href="https://movemeback.com" target="_blank" rel="noopener">MoveMeBack</a></h3>
+      <div class="meta">Global sales and business development</div>
+      <p>
+        Expanded the global sales pipeline by adding 20 qualified organizations at an 80% conversion rate.
+        I ran targeted outbound prospecting and refined positioning so outreach spoke directly to each
+        organization's hiring and talent goals, turning cold conversations into committed partners.
+      </p>
+    </div>
 
-  <li>
-    <strong>Just Cleaning LLC</strong>:
-    Built outbound sales workflows and secured commercial contracts in North Carolina through targeted prospecting and value-based positioning.
-  </li>
+    <div class="item">
+      <h3><a href="https://subjct.ai" target="_blank" rel="noopener">Subjct AI</a></h3>
+      <div class="meta">Communications and SEO strategy, UK based AI startup</div>
+      <p>
+        Supported communications and search strategy for an AI startup, structuring content for AI
+        retrievability across generative search engines and strengthening brand authority with the buyers
+        who research there first. The work connected content directly to inbound demand.
+      </p>
+    </div>
 
-  <li>
-    <strong>
-      <a href="https://www.volint.it/" target="_blank">VIS International</a>
-    </strong>:
-    Developed structured impact communications translating development initiatives into donor-facing narratives aligned with partnership growth.
-  </li>
+    <div class="item">
+      <h3>Just Cleaning LLC</h3>
+      <div class="meta">Outbound sales, North Carolina</div>
+      <p>
+        Built outbound sales workflows from the ground up and secured commercial contracts through targeted
+        prospecting and value-based positioning, leading with the outcomes facility managers care about
+        rather than a list of services.
+      </p>
+    </div>
 
-  <li>
-    <strong>Freelance Journalism</strong>:
-    Published reporting with BBC, The Telegraph, Olympics.com, and Al Jazeera English.
-    Complete archive available at
-    <a href="https://muckrack.com/esther-owusua-appiah-fei/articles" target="_blank">Muck Rack</a>.
-  </li>
+    <div class="item">
+      <h3><a href="https://trueafrica.co/article/podcast/" target="_blank" rel="noopener">True Africa: Limitless Africa Podcast</a></h3>
+      <div class="meta">Digital Media and Communications Lead, New York · Jan 2022 to present · Funded by the U.S. Department of State</div>
+      <ul>
+        <li>Designed the digital growth strategy that increased listenership by 80%, positioning the show as a flagship platform on Africa and U.S. relations.</li>
+        <li>Built distribution partnerships with leading Ghanaian media houses including Joy FM, Citi FM, and Radio Universe to reach new audiences.</li>
+        <li>Managed editorial partnerships, analytics, and community engagement across multiple languages, tying storytelling to audience acquisition and engagement metrics.</li>
+        <li>Produced campaigns featuring policymakers, entrepreneurs, and creatives redefining prosperity on the continent.</li>
+      </ul>
+    </div>
+  </section>
 
-  <li>
-    <strong>HSA PR</strong>:
-    Contributed to strategic communications and campaign execution, supporting media engagement and brand positioning across corporate accounts.
-  </li>
-</ul>
+  <section>
+    <h2>Sports Journalism</h2>
 
-<h2>Writing & Media</h2>
-<ul>
-  <li>
-    <a href="https://muckrack.com/esther-owusua-appiah-fei/articles" target="_blank">
-      Selected reporting and features (Muck Rack)
-    </a>
-  </li>
-</ul>
+    <div class="item">
+      <h3>Freelance Sports Journalist</h3>
+      <div class="meta">2019 to present · BBC Sport, The Guardian, Al Jazeera, Deutsche Welle, The Telegraph, Olympic Channel, OkayAfrica</div>
+      <p>
+        I report features and investigative stories on sport, social change, and identity in Africa,
+        bringing underrepresented athletes and narratives to global audiences. My work is known for framing
+        that places African agency inside a global context.
+      </p>
+      <ul>
+        <li>Covered international events including the FISU World University Games, the African Women's Football League, and Olympic development programmes.</li>
+        <li>Selected as one of six journalists for the <strong>FISU and AIPS Young Reporter Programme (2025)</strong>, contributing international sports coverage from Torino.</li>
+        <li>Full archive of published work on <a href="https://muckrack.com/esther-owusua-appiah-fei" target="_blank" rel="noopener">Muck Rack</a>.</li>
+      </ul>
+      <p>
+        Sport taught me how fans, sponsors, and federations think, and how a single story can move all
+        three. That perspective shapes how I approach audiences and buyers in commercial roles.
+      </p>
+    </div>
+  </section>
 
-<h2>Contact</h2>
-<p>Email: <a href="mailto:esthera759@gmail.com">esthera759@gmail.com</a></p>
-<p>
-  LinkedIn:
-  <a href="https://www.linkedin.com/in/esther-appiah-fei/" target="_blank">
-    linkedin.com/in/esther-appiah-fei
-  </a>
-</p>
+  <section>
+    <h2>Communications</h2>
 
+    <div class="item">
+      <h3>American Bar Association</h3>
+      <div class="meta">Communications Research Specialist, Freelance · Chicago · Feb 2024</div>
+      <p>
+        Authored long-form reports on minority rights and legal equity in West Africa, translating complex
+        legal frameworks into clear public narratives that supported the ABA's advocacy work.
+      </p>
+    </div>
+
+    <div class="item">
+      <h3><a href="https://www.volint.it/" target="_blank" rel="noopener">VIS International</a></h3>
+      <div class="meta">Communications Consultant, Education and Development · Italy and Ghana · Nov 2024 to Jan 2025</div>
+      <p>
+        Developed visual and written storytelling for gender-focused education initiatives in Northern Ghana,
+        turning programme impact into donor-facing narratives aligned with partnership growth. Also led
+        digital literacy workshops for rural youth and strengthened communication between Italian and
+        Ghanaian teams.
+      </p>
+    </div>
+
+    <div class="item">
+      <h3>HSA PR</h3>
+      <div class="meta">Strategic communications</div>
+      <p>
+        Contributed to strategic communications and campaign execution, supporting media engagement and brand
+        positioning across corporate accounts.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education and Certifications</h2>
+    <div class="item">
+      <h3>University of Media, Arts and Communication, Ghana</h3>
+      <div class="meta">BA Communication Studies (Public Relations), 2022 to 2025 · Diploma in Communication Studies, 2019 to 2021</div>
+    </div>
+    <ul class="tags">
+      <li>Google Digital Marketing</li>
+      <li>Google Project Management</li>
+      <li>Content Marketing, UC Berkeley</li>
+      <li>SEO and Copywriting, Coursera</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Core Skills</h2>
+    <ul class="tags">
+      <li>Go-to-Market Strategy</li>
+      <li>Outbound Prospecting</li>
+      <li>Positioning and Messaging</li>
+      <li>Sales Enablement</li>
+      <li>Demand Generation</li>
+      <li>Partnership Development</li>
+      <li>Audience Growth and Analytics</li>
+      <li>SEO and AI Search</li>
+      <li>Media Relations</li>
+      <li>Sports Storytelling</li>
+      <li>Cross-Cultural Communication</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Open to GTM, sales, and partnerships roles, especially in sports, media, and tech.</p>
+    <p>Email: <a href="mailto:esthera759@gmail.com">esthera759@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/esther-appiah-fei/" target="_blank" rel="noopener">linkedin.com/in/esther-appiah-fei</a></p>
+    <p>Writing: <a href="https://muckrack.com/esther-owusua-appiah-fei" target="_blank" rel="noopener">muckrack.com/esther-owusua-appiah-fei</a></p>
+  </section>
+
+  <footer>Based in Accra, Ghana. Working globally.</footer>
+</main>
 </body>
 </html>
